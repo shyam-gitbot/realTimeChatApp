@@ -8,7 +8,7 @@ body {
 
 /* Chat container */
 #chat-container {
-    max-width: 600px;
+    max-width: auto;
     margin: 50px auto;
     background-color: white;
     border-radius: 8px;
@@ -18,18 +18,18 @@ body {
 
 /* Messages box */
 #messages {
-    height: 400px;
+    height: 505px;
     overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
+    /* border: 1px solid #ddd;
+    padding: 10px; */
     margin-bottom: 10px;
     background-color: #fafafa;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 /* Message input */
 #message-input {
-    width: calc(100% - 80px);
+    width: calc(95% - 80px);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -39,7 +39,7 @@ body {
 #send-button {
     padding: 10px 15px;
     border: none;
-    background-color: #007bff;
+    background-color: #084280;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -47,4 +47,36 @@ body {
 
 #send-button:hover {
     background-color: #0056b3;
+}
+
+/* Common style for each message */
+#messages div {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 15px;
+    max-width: 95%;
+    word-wrap: break-word;
+}
+
+/* Messages sent by self → right */
+.self {
+    background-color: #dcf8c6;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Messages from others → left */
+.other {
+    background-color: #f1f0f0;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Notifications (like "user joined") */
+.notification {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    background-color: transparent;
+    margin: 5px 0;
 }
