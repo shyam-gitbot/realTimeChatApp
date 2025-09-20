@@ -97,12 +97,4 @@ Users can join with a username, send/receive messages instantly, and switch betw
 ## 👨‍💻 Author
 
 * Built with ❤️ for learning Socket.IO
-* Your Name ([@yourgithub](https://github.com/yourgithub))
-
-```
-
----
-
-👉 I kept it **learner-friendly + professional**.  
-Do you want me to also add **badges (Node.js, Socket.IO, License, etc.)** at the top for a more GitHub-polished look?
-```
+* Your Name ([@shyam-gitbot](https://github.com/shyam-gitbot))
