@@ -76,14 +76,6 @@ Users can join with a username, send/receive messages instantly, and switch betw
 
 ---
 
-## 📸 Screenshots
-
-### Chat Window
-
-![Chat UI Example](https://via.placeholder.com/600x400?text=Chat+App+UI)
-
----
-
 ## 🔮 Future Improvements
 
 * Add **private messaging / rooms**
